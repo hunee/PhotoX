@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F389CC5F136E537300DDD5B3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F389CC5E136E537300DDD5B3 /* MobileCoreServices.framework */; };
+		F389CC61136E538100DDD5B3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F389CC60136E538100DDD5B3 /* AssetsLibrary.framework */; };
+		F389CC62136E543E00DDD5B3 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1DB136E52AC006C2EB5 /* Shader.vsh */; };
+		F389CC63136E543E00DDD5B3 /* Shader_00.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1DC136E52AC006C2EB5 /* Shader_00.fsh */; };
+		F389CC64136E543E00DDD5B3 /* Shader_01.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1DD136E52AC006C2EB5 /* Shader_01.fsh */; };
+		F389CC65136E543E00DDD5B3 /* Shader_02.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1DE136E52AC006C2EB5 /* Shader_02.fsh */; };
+		F389CC66136E543E00DDD5B3 /* Shader_03.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1DF136E52AC006C2EB5 /* Shader_03.fsh */; };
+		F389CC67136E543E00DDD5B3 /* Shader_04.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E0136E52AC006C2EB5 /* Shader_04.fsh */; };
+		F389CC68136E543E00DDD5B3 /* Shader_05.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E1136E52AC006C2EB5 /* Shader_05.fsh */; };
+		F389CC69136E543E00DDD5B3 /* Shader_06.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E2136E52AC006C2EB5 /* Shader_06.fsh */; };
+		F389CC6A136E543E00DDD5B3 /* Shader_07.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E3136E52AC006C2EB5 /* Shader_07.fsh */; };
+		F389CC6B136E543E00DDD5B3 /* Shader_08.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E4136E52AC006C2EB5 /* Shader_08.fsh */; };
+		F389CC6C136E543E00DDD5B3 /* Shader_09.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E5136E52AC006C2EB5 /* Shader_09.fsh */; };
+		F389CC6D136E543E00DDD5B3 /* Shader_10.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E6136E52AC006C2EB5 /* Shader_10.fsh */; };
+		F389CC6E136E543E00DDD5B3 /* Shader_11.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E7136E52AC006C2EB5 /* Shader_11.fsh */; };
+		F389CC6F136E543E00DDD5B3 /* Shader_12.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E8136E52AC006C2EB5 /* Shader_12.fsh */; };
+		F389CC70136E543E00DDD5B3 /* Shader_13.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1E9136E52AC006C2EB5 /* Shader_13.fsh */; };
+		F389CC71136E543E00DDD5B3 /* Shader_14.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1EA136E52AC006C2EB5 /* Shader_14.fsh */; };
+		F389CC72136E543E00DDD5B3 /* Shader_15.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1EB136E52AC006C2EB5 /* Shader_15.fsh */; };
+		F389CC73136E543E00DDD5B3 /* Shader_16.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1EC136E52AC006C2EB5 /* Shader_16.fsh */; };
+		F389CC74136E543E00DDD5B3 /* Shader_17.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1ED136E52AC006C2EB5 /* Shader_17.fsh */; };
+		F389CC75136E543E00DDD5B3 /* Shader_18.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1EE136E52AC006C2EB5 /* Shader_18.fsh */; };
+		F389CC77136E55AC00DDD5B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F389CC76136E55AC00DDD5B3 /* Default@2x.png */; };
+		F389CC79136E566F00DDD5B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F389CC78136E566F00DDD5B3 /* Default.png */; };
+		F389CC7F136E617E00DDD5B3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F389CC7E136E617E00DDD5B3 /* Icon.png */; };
+		F389CC81136E618B00DDD5B3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F389CC80136E618B00DDD5B3 /* Icon@2x.png */; };
+		F3ECD198136E513F006C2EB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD197136E513F006C2EB5 /* UIKit.framework */; };
+		F3ECD19A136E513F006C2EB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD199136E513F006C2EB5 /* Foundation.framework */; };
+		F3ECD19C136E513F006C2EB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD19B136E513F006C2EB5 /* CoreGraphics.framework */; };
+		F3ECD19E136E513F006C2EB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD19D136E513F006C2EB5 /* QuartzCore.framework */; };
+		F3ECD1A0136E513F006C2EB5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD19F136E513F006C2EB5 /* OpenGLES.framework */; };
+		F3ECD1A6136E513F006C2EB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1A4136E513F006C2EB5 /* InfoPlist.strings */; };
+		F3ECD1A9136E513F006C2EB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1A8136E513F006C2EB5 /* main.m */; };
+		F3ECD1AC136E513F006C2EB5 /* PhotoXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1AB136E513F006C2EB5 /* PhotoXAppDelegate.m */; };
+		F3ECD1AF136E513F006C2EB5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1AD136E513F006C2EB5 /* MainWindow.xib */; };
+		F3ECD1B6136E513F006C2EB5 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1B5136E513F006C2EB5 /* EAGLView.m */; };
+		F3ECD1B9136E513F006C2EB5 /* PhotoXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1B8136E513F006C2EB5 /* PhotoXViewController.m */; };
+		F3ECD1BC136E513F006C2EB5 /* PhotoXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1BA136E513F006C2EB5 /* PhotoXViewController.xib */; };
+		F3ECD1C3136E528B006C2EB5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD1C2136E528B006C2EB5 /* AVFoundation.framework */; };
+		F3ECD1C5136E5291006C2EB5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD1C4136E5291006C2EB5 /* iAd.framework */; };
+		F3ECD1CA136E52A4006C2EB5 /* AVCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1C7136E52A4006C2EB5 /* AVCaptureManager.m */; };
+		F3ECD1CB136E52A4006C2EB5 /* AVCaptureUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1C9136E52A4006C2EB5 /* AVCaptureUtilities.m */; };
+		F3ECD1EF136E52AC006C2EB5 /* Camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1CD136E52AC006C2EB5 /* Camera.wav */; };
+		F3ECD1F0136E52AC006C2EB5 /* icon_left.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1CE136E52AC006C2EB5 /* icon_left.png */; };
+		F3ECD1F1136E52AC006C2EB5 /* icon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1CF136E52AC006C2EB5 /* icon_left@2x.png */; };
+		F3ECD1F2136E52AC006C2EB5 /* icon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D0136E52AC006C2EB5 /* icon_right.png */; };
+		F3ECD1F3136E52AC006C2EB5 /* icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D1136E52AC006C2EB5 /* icon_right@2x.png */; };
+		F3ECD1F4136E52AC006C2EB5 /* iconBtn_iPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D2136E52AC006C2EB5 /* iconBtn_iPhoto.png */; };
+		F3ECD1F5136E52AC006C2EB5 /* shutterBtn_blank_click.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D3136E52AC006C2EB5 /* shutterBtn_blank_click.png */; };
+		F3ECD1F6136E52AC006C2EB5 /* shutterBtn_blank_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D4136E52AC006C2EB5 /* shutterBtn_blank_inactive.png */; };
+		F3ECD1F7136E52AC006C2EB5 /* shutterBtn_blank_norm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D5136E52AC006C2EB5 /* shutterBtn_blank_norm.png */; };
+		F3ECD1F8136E52AC006C2EB5 /* shutterBtn_red_click.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D6136E52AC006C2EB5 /* shutterBtn_red_click.png */; };
+		F3ECD1F9136E52AC006C2EB5 /* shutterBtn_red_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D7136E52AC006C2EB5 /* shutterBtn_red_inactive.png */; };
+		F3ECD1FA136E52AC006C2EB5 /* shutterBtn_red_norm.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ECD1D8136E52AC006C2EB5 /* shutterBtn_red_norm.png */; };
+		F3ECD1FB136E52AC006C2EB5 /* Shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DA136E52AC006C2EB5 /* Shader.fsh */; };
+		F3ECD1FC136E52AC006C2EB5 /* Shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DB136E52AC006C2EB5 /* Shader.vsh */; };
+		F3ECD1FD136E52AC006C2EB5 /* Shader_00.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DC136E52AC006C2EB5 /* Shader_00.fsh */; };
+		F3ECD1FE136E52AC006C2EB5 /* Shader_01.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DD136E52AC006C2EB5 /* Shader_01.fsh */; };
+		F3ECD1FF136E52AC006C2EB5 /* Shader_02.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DE136E52AC006C2EB5 /* Shader_02.fsh */; };
+		F3ECD200136E52AC006C2EB5 /* Shader_03.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1DF136E52AC006C2EB5 /* Shader_03.fsh */; };
+		F3ECD201136E52AC006C2EB5 /* Shader_04.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E0136E52AC006C2EB5 /* Shader_04.fsh */; };
+		F3ECD202136E52AC006C2EB5 /* Shader_05.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E1136E52AC006C2EB5 /* Shader_05.fsh */; };
+		F3ECD203136E52AC006C2EB5 /* Shader_06.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E2136E52AC006C2EB5 /* Shader_06.fsh */; };
+		F3ECD204136E52AC006C2EB5 /* Shader_07.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E3136E52AC006C2EB5 /* Shader_07.fsh */; };
+		F3ECD205136E52AC006C2EB5 /* Shader_08.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E4136E52AC006C2EB5 /* Shader_08.fsh */; };
+		F3ECD206136E52AC006C2EB5 /* Shader_09.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E5136E52AC006C2EB5 /* Shader_09.fsh */; };
+		F3ECD207136E52AC006C2EB5 /* Shader_10.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E6136E52AC006C2EB5 /* Shader_10.fsh */; };
+		F3ECD208136E52AC006C2EB5 /* Shader_11.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E7136E52AC006C2EB5 /* Shader_11.fsh */; };
+		F3ECD209136E52AC006C2EB5 /* Shader_12.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E8136E52AC006C2EB5 /* Shader_12.fsh */; };
+		F3ECD20A136E52AC006C2EB5 /* Shader_13.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1E9136E52AC006C2EB5 /* Shader_13.fsh */; };
+		F3ECD20B136E52AC006C2EB5 /* Shader_14.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1EA136E52AC006C2EB5 /* Shader_14.fsh */; };
+		F3ECD20C136E52AC006C2EB5 /* Shader_15.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1EB136E52AC006C2EB5 /* Shader_15.fsh */; };
+		F3ECD20D136E52AC006C2EB5 /* Shader_16.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1EC136E52AC006C2EB5 /* Shader_16.fsh */; };
+		F3ECD20E136E52AC006C2EB5 /* Shader_17.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1ED136E52AC006C2EB5 /* Shader_17.fsh */; };
+		F3ECD20F136E52AC006C2EB5 /* Shader_18.fsh in Sources */ = {isa = PBXBuildFile; fileRef = F3ECD1EE136E52AC006C2EB5 /* Shader_18.fsh */; };
+		F3ECD211136E52ED006C2EB5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD210136E52ED006C2EB5 /* CoreAudio.framework */; };
+		F3ECD213136E52F3006C2EB5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD212136E52F3006C2EB5 /* CoreMedia.framework */; };
+		F3ECD215136E52F7006C2EB5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD214136E52F7006C2EB5 /* CoreVideo.framework */; };
+		F3ECD217136E5308006C2EB5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECD216136E5308006C2EB5 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F389CC5C136E535900DDD5B3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F389CC5E136E537300DDD5B3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F389CC60136E538100DDD5B3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F389CC76136E55AC00DDD5B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F389CC78136E566F00DDD5B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F389CC7E136E617E00DDD5B3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F389CC80136E618B00DDD5B3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F3ECD193136E513F006C2EB5 /* PhotoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3ECD197136E513F006C2EB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3ECD199136E513F006C2EB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3ECD19B136E513F006C2EB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3ECD19D136E513F006C2EB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3ECD19F136E513F006C2EB5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F3ECD1A3136E513F006C2EB5 /* PhotoX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoX-Info.plist"; sourceTree = "<group>"; };
+		F3ECD1A5136E513F006C2EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3ECD1A7136E513F006C2EB5 /* PhotoX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoX-Prefix.pch"; sourceTree = "<group>"; };
+		F3ECD1A8136E513F006C2EB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3ECD1AA136E513F006C2EB5 /* PhotoXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoXAppDelegate.h; sourceTree = "<group>"; };
+		F3ECD1AB136E513F006C2EB5 /* PhotoXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoXAppDelegate.m; sourceTree = "<group>"; };
+		F3ECD1AE136E513F006C2EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F3ECD1B4136E513F006C2EB5 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		F3ECD1B5136E513F006C2EB5 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		F3ECD1B7136E513F006C2EB5 /* PhotoXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoXViewController.h; sourceTree = "<group>"; };
+		F3ECD1B8136E513F006C2EB5 /* PhotoXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoXViewController.m; sourceTree = "<group>"; };
+		F3ECD1BB136E513F006C2EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhotoXViewController.xib; sourceTree = "<group>"; };
+		F3ECD1C2136E528B006C2EB5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3ECD1C4136E5291006C2EB5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F3ECD1C6136E52A4006C2EB5 /* AVCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureManager.h; sourceTree = "<group>"; };
+		F3ECD1C7136E52A4006C2EB5 /* AVCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureManager.m; sourceTree = "<group>"; };
+		F3ECD1C8136E52A4006C2EB5 /* AVCaptureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureUtilities.h; sourceTree = "<group>"; };
+		F3ECD1C9136E52A4006C2EB5 /* AVCaptureUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureUtilities.m; sourceTree = "<group>"; };
+		F3ECD1CD136E52AC006C2EB5 /* Camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Camera.wav; sourceTree = "<group>"; };
+		F3ECD1CE136E52AC006C2EB5 /* icon_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_left.png; sourceTree = "<group>"; };
+		F3ECD1CF136E52AC006C2EB5 /* icon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_left@2x.png"; sourceTree = "<group>"; };
+		F3ECD1D0136E52AC006C2EB5 /* icon_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_right.png; sourceTree = "<group>"; };
+		F3ECD1D1136E52AC006C2EB5 /* icon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_right@2x.png"; sourceTree = "<group>"; };
+		F3ECD1D2136E52AC006C2EB5 /* iconBtn_iPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBtn_iPhoto.png; sourceTree = "<group>"; };
+		F3ECD1D3136E52AC006C2EB5 /* shutterBtn_blank_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_blank_click.png; sourceTree = "<group>"; };
+		F3ECD1D4136E52AC006C2EB5 /* shutterBtn_blank_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_blank_inactive.png; sourceTree = "<group>"; };
+		F3ECD1D5136E52AC006C2EB5 /* shutterBtn_blank_norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_blank_norm.png; sourceTree = "<group>"; };
+		F3ECD1D6136E52AC006C2EB5 /* shutterBtn_red_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_red_click.png; sourceTree = "<group>"; };
+		F3ECD1D7136E52AC006C2EB5 /* shutterBtn_red_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_red_inactive.png; sourceTree = "<group>"; };
+		F3ECD1D8136E52AC006C2EB5 /* shutterBtn_red_norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutterBtn_red_norm.png; sourceTree = "<group>"; };
+		F3ECD1DA136E52AC006C2EB5 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		F3ECD1DB136E52AC006C2EB5 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		F3ECD1DC136E52AC006C2EB5 /* Shader_00.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_00.fsh; sourceTree = "<group>"; };
+		F3ECD1DD136E52AC006C2EB5 /* Shader_01.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_01.fsh; sourceTree = "<group>"; };
+		F3ECD1DE136E52AC006C2EB5 /* Shader_02.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_02.fsh; sourceTree = "<group>"; };
+		F3ECD1DF136E52AC006C2EB5 /* Shader_03.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_03.fsh; sourceTree = "<group>"; };
+		F3ECD1E0136E52AC006C2EB5 /* Shader_04.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_04.fsh; sourceTree = "<group>"; };
+		F3ECD1E1136E52AC006C2EB5 /* Shader_05.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_05.fsh; sourceTree = "<group>"; };
+		F3ECD1E2136E52AC006C2EB5 /* Shader_06.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_06.fsh; sourceTree = "<group>"; };
+		F3ECD1E3136E52AC006C2EB5 /* Shader_07.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_07.fsh; sourceTree = "<group>"; };
+		F3ECD1E4136E52AC006C2EB5 /* Shader_08.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_08.fsh; sourceTree = "<group>"; };
+		F3ECD1E5136E52AC006C2EB5 /* Shader_09.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_09.fsh; sourceTree = "<group>"; };
+		F3ECD1E6136E52AC006C2EB5 /* Shader_10.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_10.fsh; sourceTree = "<group>"; };
+		F3ECD1E7136E52AC006C2EB5 /* Shader_11.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_11.fsh; sourceTree = "<group>"; };
+		F3ECD1E8136E52AC006C2EB5 /* Shader_12.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_12.fsh; sourceTree = "<group>"; };
+		F3ECD1E9136E52AC006C2EB5 /* Shader_13.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_13.fsh; sourceTree = "<group>"; };
+		F3ECD1EA136E52AC006C2EB5 /* Shader_14.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_14.fsh; sourceTree = "<group>"; };
+		F3ECD1EB136E52AC006C2EB5 /* Shader_15.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_15.fsh; sourceTree = "<group>"; };
+		F3ECD1EC136E52AC006C2EB5 /* Shader_16.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_16.fsh; sourceTree = "<group>"; };
+		F3ECD1ED136E52AC006C2EB5 /* Shader_17.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_17.fsh; sourceTree = "<group>"; };
+		F3ECD1EE136E52AC006C2EB5 /* Shader_18.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader_18.fsh; sourceTree = "<group>"; };
+		F3ECD210136E52ED006C2EB5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F3ECD212136E52F3006C2EB5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F3ECD214136E52F7006C2EB5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F3ECD216136E5308006C2EB5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F3ECD218136E5325006C2EB5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3ECD190136E513F006C2EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F389CC61136E538100DDD5B3 /* AssetsLibrary.framework in Frameworks */,
+				F389CC5F136E537300DDD5B3 /* MobileCoreServices.framework in Frameworks */,
+				F3ECD217136E5308006C2EB5 /* AudioToolbox.framework in Frameworks */,
+				F3ECD215136E52F7006C2EB5 /* CoreVideo.framework in Frameworks */,
+				F3ECD213136E52F3006C2EB5 /* CoreMedia.framework in Frameworks */,
+				F3ECD211136E52ED006C2EB5 /* CoreAudio.framework in Frameworks */,
+				F3ECD1C5136E5291006C2EB5 /* iAd.framework in Frameworks */,
+				F3ECD1C3136E528B006C2EB5 /* AVFoundation.framework in Frameworks */,
+				F3ECD198136E513F006C2EB5 /* UIKit.framework in Frameworks */,
+				F3ECD19A136E513F006C2EB5 /* Foundation.framework in Frameworks */,
+				F3ECD19C136E513F006C2EB5 /* CoreGraphics.framework in Frameworks */,
+				F3ECD19E136E513F006C2EB5 /* QuartzCore.framework in Frameworks */,
+				F3ECD1A0136E513F006C2EB5 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3ECD188136E513F006C2EB5 = {
+			isa = PBXGroup;
+			children = (
+				F389CC80136E618B00DDD5B3 /* Icon@2x.png */,
+				F389CC7E136E617E00DDD5B3 /* Icon.png */,
+				F389CC78136E566F00DDD5B3 /* Default.png */,
+				F389CC76136E55AC00DDD5B3 /* Default@2x.png */,
+				F3ECD1A1136E513F006C2EB5 /* PhotoX */,
+				F3ECD196136E513F006C2EB5 /* Frameworks */,
+				F3ECD194136E513F006C2EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3ECD194136E513F006C2EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECD193136E513F006C2EB5 /* PhotoX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3ECD196136E513F006C2EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F389CC60136E538100DDD5B3 /* AssetsLibrary.framework */,
+				F389CC5E136E537300DDD5B3 /* MobileCoreServices.framework */,
+				F389CC5C136E535900DDD5B3 /* CoreMotion.framework */,
+				F3ECD218136E5325006C2EB5 /* ImageIO.framework */,
+				F3ECD216136E5308006C2EB5 /* AudioToolbox.framework */,
+				F3ECD214136E52F7006C2EB5 /* CoreVideo.framework */,
+				F3ECD212136E52F3006C2EB5 /* CoreMedia.framework */,
+				F3ECD210136E52ED006C2EB5 /* CoreAudio.framework */,
+				F3ECD1C4136E5291006C2EB5 /* iAd.framework */,
+				F3ECD1C2136E528B006C2EB5 /* AVFoundation.framework */,
+				F3ECD197136E513F006C2EB5 /* UIKit.framework */,
+				F3ECD199136E513F006C2EB5 /* Foundation.framework */,
+				F3ECD19B136E513F006C2EB5 /* CoreGraphics.framework */,
+				F3ECD19D136E513F006C2EB5 /* QuartzCore.framework */,
+				F3ECD19F136E513F006C2EB5 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3ECD1A1136E513F006C2EB5 /* PhotoX */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECD1CC136E52AC006C2EB5 /* Resource */,
+				F3ECD1D9136E52AC006C2EB5 /* Shaders */,
+				F3ECD1C6136E52A4006C2EB5 /* AVCaptureManager.h */,
+				F3ECD1C7136E52A4006C2EB5 /* AVCaptureManager.m */,
+				F3ECD1C8136E52A4006C2EB5 /* AVCaptureUtilities.h */,
+				F3ECD1C9136E52A4006C2EB5 /* AVCaptureUtilities.m */,
+				F3ECD1AA136E513F006C2EB5 /* PhotoXAppDelegate.h */,
+				F3ECD1AB136E513F006C2EB5 /* PhotoXAppDelegate.m */,
+				F3ECD1AD136E513F006C2EB5 /* MainWindow.xib */,
+				F3ECD1B4136E513F006C2EB5 /* EAGLView.h */,
+				F3ECD1B5136E513F006C2EB5 /* EAGLView.m */,
+				F3ECD1B7136E513F006C2EB5 /* PhotoXViewController.h */,
+				F3ECD1B8136E513F006C2EB5 /* PhotoXViewController.m */,
+				F3ECD1BA136E513F006C2EB5 /* PhotoXViewController.xib */,
+				F3ECD1A2136E513F006C2EB5 /* Supporting Files */,
+			);
+			path = PhotoX;
+			sourceTree = "<group>";
+		};
+		F3ECD1A2136E513F006C2EB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECD1A3136E513F006C2EB5 /* PhotoX-Info.plist */,
+				F3ECD1A4136E513F006C2EB5 /* InfoPlist.strings */,
+				F3ECD1A7136E513F006C2EB5 /* PhotoX-Prefix.pch */,
+				F3ECD1A8136E513F006C2EB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3ECD1CC136E52AC006C2EB5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECD1CD136E52AC006C2EB5 /* Camera.wav */,
+				F3ECD1CE136E52AC006C2EB5 /* icon_left.png */,
+				F3ECD1CF136E52AC006C2EB5 /* icon_left@2x.png */,
+				F3ECD1D0136E52AC006C2EB5 /* icon_right.png */,
+				F3ECD1D1136E52AC006C2EB5 /* icon_right@2x.png */,
+				F3ECD1D2136E52AC006C2EB5 /* iconBtn_iPhoto.png */,
+				F3ECD1D3136E52AC006C2EB5 /* shutterBtn_blank_click.png */,
+				F3ECD1D4136E52AC006C2EB5 /* shutterBtn_blank_inactive.png */,
+				F3ECD1D5136E52AC006C2EB5 /* shutterBtn_blank_norm.png */,
+				F3ECD1D6136E52AC006C2EB5 /* shutterBtn_red_click.png */,
+				F3ECD1D7136E52AC006C2EB5 /* shutterBtn_red_inactive.png */,
+				F3ECD1D8136E52AC006C2EB5 /* shutterBtn_red_norm.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F3ECD1D9136E52AC006C2EB5 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECD1DA136E52AC006C2EB5 /* Shader.fsh */,
+				F3ECD1DB136E52AC006C2EB5 /* Shader.vsh */,
+				F3ECD1DC136E52AC006C2EB5 /* Shader_00.fsh */,
+				F3ECD1DD136E52AC006C2EB5 /* Shader_01.fsh */,
+				F3ECD1DE136E52AC006C2EB5 /* Shader_02.fsh */,
+				F3ECD1DF136E52AC006C2EB5 /* Shader_03.fsh */,
+				F3ECD1E0136E52AC006C2EB5 /* Shader_04.fsh */,
+				F3ECD1E1136E52AC006C2EB5 /* Shader_05.fsh */,
+				F3ECD1E2136E52AC006C2EB5 /* Shader_06.fsh */,
+				F3ECD1E3136E52AC006C2EB5 /* Shader_07.fsh */,
+				F3ECD1E4136E52AC006C2EB5 /* Shader_08.fsh */,
+				F3ECD1E5136E52AC006C2EB5 /* Shader_09.fsh */,
+				F3ECD1E6136E52AC006C2EB5 /* Shader_10.fsh */,
+				F3ECD1E7136E52AC006C2EB5 /* Shader_11.fsh */,
+				F3ECD1E8136E52AC006C2EB5 /* Shader_12.fsh */,
+				F3ECD1E9136E52AC006C2EB5 /* Shader_13.fsh */,
+				F3ECD1EA136E52AC006C2EB5 /* Shader_14.fsh */,
+				F3ECD1EB136E52AC006C2EB5 /* Shader_15.fsh */,
+				F3ECD1EC136E52AC006C2EB5 /* Shader_16.fsh */,
+				F3ECD1ED136E52AC006C2EB5 /* Shader_17.fsh */,
+				F3ECD1EE136E52AC006C2EB5 /* Shader_18.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3ECD192136E513F006C2EB5 /* PhotoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3ECD1BF136E513F006C2EB5 /* Build configuration list for PBXNativeTarget "PhotoX" */;
+			buildPhases = (
+				F3ECD18F136E513F006C2EB5 /* Sources */,
+				F3ECD190136E513F006C2EB5 /* Frameworks */,
+				F3ECD191136E513F006C2EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoX;
+			productName = PhotoX;
+			productReference = F3ECD193136E513F006C2EB5 /* PhotoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3ECD18A136E513F006C2EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = home;
+			};
+			buildConfigurationList = F3ECD18D136E513F006C2EB5 /* Build configuration list for PBXProject "PhotoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3ECD188136E513F006C2EB5;
+			productRefGroup = F3ECD194136E513F006C2EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3ECD192136E513F006C2EB5 /* PhotoX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3ECD191136E513F006C2EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F389CC62136E543E00DDD5B3 /* Shader.vsh in Resources */,
+				F389CC63136E543E00DDD5B3 /* Shader_00.fsh in Resources */,
+				F389CC64136E543E00DDD5B3 /* Shader_01.fsh in Resources */,
+				F389CC65136E543E00DDD5B3 /* Shader_02.fsh in Resources */,
+				F389CC66136E543E00DDD5B3 /* Shader_03.fsh in Resources */,
+				F389CC67136E543E00DDD5B3 /* Shader_04.fsh in Resources */,
+				F389CC68136E543E00DDD5B3 /* Shader_05.fsh in Resources */,
+				F389CC69136E543E00DDD5B3 /* Shader_06.fsh in Resources */,
+				F389CC6A136E543E00DDD5B3 /* Shader_07.fsh in Resources */,
+				F389CC6B136E543E00DDD5B3 /* Shader_08.fsh in Resources */,
+				F389CC6C136E543E00DDD5B3 /* Shader_09.fsh in Resources */,
+				F389CC6D136E543E00DDD5B3 /* Shader_10.fsh in Resources */,
+				F389CC6E136E543E00DDD5B3 /* Shader_11.fsh in Resources */,
+				F389CC6F136E543E00DDD5B3 /* Shader_12.fsh in Resources */,
+				F389CC70136E543E00DDD5B3 /* Shader_13.fsh in Resources */,
+				F389CC71136E543E00DDD5B3 /* Shader_14.fsh in Resources */,
+				F389CC72136E543E00DDD5B3 /* Shader_15.fsh in Resources */,
+				F389CC73136E543E00DDD5B3 /* Shader_16.fsh in Resources */,
+				F389CC74136E543E00DDD5B3 /* Shader_17.fsh in Resources */,
+				F389CC75136E543E00DDD5B3 /* Shader_18.fsh in Resources */,
+				F3ECD1A6136E513F006C2EB5 /* InfoPlist.strings in Resources */,
+				F3ECD1AF136E513F006C2EB5 /* MainWindow.xib in Resources */,
+				F3ECD1BC136E513F006C2EB5 /* PhotoXViewController.xib in Resources */,
+				F3ECD1EF136E52AC006C2EB5 /* Camera.wav in Resources */,
+				F3ECD1F0136E52AC006C2EB5 /* icon_left.png in Resources */,
+				F3ECD1F1136E52AC006C2EB5 /* icon_left@2x.png in Resources */,
+				F3ECD1F2136E52AC006C2EB5 /* icon_right.png in Resources */,
+				F3ECD1F3136E52AC006C2EB5 /* icon_right@2x.png in Resources */,
+				F3ECD1F4136E52AC006C2EB5 /* iconBtn_iPhoto.png in Resources */,
+				F3ECD1F5136E52AC006C2EB5 /* shutterBtn_blank_click.png in Resources */,
+				F3ECD1F6136E52AC006C2EB5 /* shutterBtn_blank_inactive.png in Resources */,
+				F3ECD1F7136E52AC006C2EB5 /* shutterBtn_blank_norm.png in Resources */,
+				F3ECD1F8136E52AC006C2EB5 /* shutterBtn_red_click.png in Resources */,
+				F3ECD1F9136E52AC006C2EB5 /* shutterBtn_red_inactive.png in Resources */,
+				F3ECD1FA136E52AC006C2EB5 /* shutterBtn_red_norm.png in Resources */,
+				F389CC77136E55AC00DDD5B3 /* Default@2x.png in Resources */,
+				F389CC79136E566F00DDD5B3 /* Default.png in Resources */,
+				F389CC7F136E617E00DDD5B3 /* Icon.png in Resources */,
+				F389CC81136E618B00DDD5B3 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3ECD18F136E513F006C2EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ECD1A9136E513F006C2EB5 /* main.m in Sources */,
+				F3ECD1AC136E513F006C2EB5 /* PhotoXAppDelegate.m in Sources */,
+				F3ECD1B6136E513F006C2EB5 /* EAGLView.m in Sources */,
+				F3ECD1B9136E513F006C2EB5 /* PhotoXViewController.m in Sources */,
+				F3ECD1CA136E52A4006C2EB5 /* AVCaptureManager.m in Sources */,
+				F3ECD1CB136E52A4006C2EB5 /* AVCaptureUtilities.m in Sources */,
+				F3ECD1FB136E52AC006C2EB5 /* Shader.fsh in Sources */,
+				F3ECD1FC136E52AC006C2EB5 /* Shader.vsh in Sources */,
+				F3ECD1FD136E52AC006C2EB5 /* Shader_00.fsh in Sources */,
+				F3ECD1FE136E52AC006C2EB5 /* Shader_01.fsh in Sources */,
+				F3ECD1FF136E52AC006C2EB5 /* Shader_02.fsh in Sources */,
+				F3ECD200136E52AC006C2EB5 /* Shader_03.fsh in Sources */,
+				F3ECD201136E52AC006C2EB5 /* Shader_04.fsh in Sources */,
+				F3ECD202136E52AC006C2EB5 /* Shader_05.fsh in Sources */,
+				F3ECD203136E52AC006C2EB5 /* Shader_06.fsh in Sources */,
+				F3ECD204136E52AC006C2EB5 /* Shader_07.fsh in Sources */,
+				F3ECD205136E52AC006C2EB5 /* Shader_08.fsh in Sources */,
+				F3ECD206136E52AC006C2EB5 /* Shader_09.fsh in Sources */,
+				F3ECD207136E52AC006C2EB5 /* Shader_10.fsh in Sources */,
+				F3ECD208136E52AC006C2EB5 /* Shader_11.fsh in Sources */,
+				F3ECD209136E52AC006C2EB5 /* Shader_12.fsh in Sources */,
+				F3ECD20A136E52AC006C2EB5 /* Shader_13.fsh in Sources */,
+				F3ECD20B136E52AC006C2EB5 /* Shader_14.fsh in Sources */,
+				F3ECD20C136E52AC006C2EB5 /* Shader_15.fsh in Sources */,
+				F3ECD20D136E52AC006C2EB5 /* Shader_16.fsh in Sources */,
+				F3ECD20E136E52AC006C2EB5 /* Shader_17.fsh in Sources */,
+				F3ECD20F136E52AC006C2EB5 /* Shader_18.fsh in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3ECD1A4136E513F006C2EB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3ECD1A5136E513F006C2EB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3ECD1AD136E513F006C2EB5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3ECD1AE136E513F006C2EB5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F3ECD1BA136E513F006C2EB5 /* PhotoXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3ECD1BB136E513F006C2EB5 /* en */,
+			);
+			name = PhotoXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F389CC82136E636C00DDD5B3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		F389CC83136E636C00DDD5B3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoX/PhotoX-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "PhotoX/PhotoX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		F3ECD1BD136E513F006C2EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3ECD1BE136E513F006C2EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F3ECD1C0136E513F006C2EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoX/PhotoX-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "PhotoX/PhotoX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3ECD1C1136E513F006C2EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoX/PhotoX-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "PhotoX/PhotoX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3ECD18D136E513F006C2EB5 /* Build configuration list for PBXProject "PhotoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3ECD1BD136E513F006C2EB5 /* Debug */,
+				F3ECD1BE136E513F006C2EB5 /* Release */,
+				F389CC82136E636C00DDD5B3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3ECD1BF136E513F006C2EB5 /* Build configuration list for PBXNativeTarget "PhotoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3ECD1C0136E513F006C2EB5 /* Debug */,
+				F3ECD1C1136E513F006C2EB5 /* Release */,
+				F389CC83136E636C00DDD5B3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3ECD18A136E513F006C2EB5 /* Project object */;
+}
